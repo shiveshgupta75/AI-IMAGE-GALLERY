@@ -1,0 +1,1 @@
+A responsive web app that fetches and displays images from Unsplash API. Features include search, category filters, and a lightbox for viewing images fullscreen with navigation controls. Built with vanilla HTML, CSS, and JavaScript.
