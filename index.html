@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>AI Image Gallery</h1>
+        <div class="controls">
+            <input type="text" id="searchInput" placeholder="Search images...">
+            <div class="categories">
+                <button data-category="nature">Nature</button>
+                <button data-category="technology">Technology</button>
+                <button data-category="animals">Animals</button>
+                <button data-category="people">People</button>
+                <button data-category="travel">Travel</button>
+            </div>
+        </div>
+    </header>
+
+    <main id="gallery" class="gallery"></main>
+
+    <div id="lightbox" class="lightbox hidden">
+        <span id="closeBtn">&times;</span>
+        <img id="lightboxImg" src="" alt="">
+        <a id="prevBtn">&#10094;</a>
+        <a id="nextBtn">&#10095;</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
